@@ -1,0 +1,46 @@
+*{
+    margin: 10px;
+    padding: 15px;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("Images/mossy stone BG.jpg");
+}
+.Mainpage{
+    background: rgb(51, 48, 48);
+    color: white;
+    position: relative;
+}
+.Mainpage h1{
+    background: navy;
+    width: 70%;
+}
+.Mainpage img{
+    position: absolute;
+    width: 200px;
+    left: 75%;
+    top: 0px;
+}
+.Mainpage p{
+    width: 70%;
+    background: green;
+}
+.linkspace{
+    background: rebeccapurple;
+    border: solid;
+    border-width: 10px;
+    border-color: black;
+    width: 30%;
+}
+.linkspace a{color: cyan
+}
+.linkspace li{
+    padding: 1px;
+    margin: 0px;
+}
+.linkspace ol{
+    color: violet;
+    list-style-type: none;
+}
