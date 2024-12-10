@@ -1,0 +1,9 @@
+Ik heb complimenten gekregen van dat ik goed de stof begreep en dat me code der net uit zag, maar mijn werk tempo/wijze was nog wel om aan te werken. deze opdracht is 4 weken te laat ingeleverd door dat ik nog geen stabiele planning had, waardoor ik dagen niet aan had gewerkt en ook vastliep op momenten. Andere punt is dat ik voormalig in mijn code een functie had waarmee je met je klik naar de volgende zin kon gaan maar ik had dat verwijderd door dat het veel tijd kostte om elke keer door de zinnen te gaan om nieuwe zinnen te controleren.
+
+Ik heb dingen dat in de toekomst zou willen beter doen:
+1. Een meer dynamische achtergrond want de huidige is vrij saai met dat een witte tekst op een grijze achtergrond zo de hele tijd.
+2. In de functie maken dat bepaalde cases niet geactiveerd kan worden als je niet op de juiste scene bent, nu kan je gewoon commando's invoeren om overal naar toe te gaan of alles te activeren.
+3. Een manier om te maken dat als een tekst te lang is om op je scherm te passen dat het zou overgaan naar een andere zin, nu moest ik handmatig kijken als alle teksten op het scherm passen of als ik ergens een nieuwe zin moest van maken. 
+Van belang ook een weg om het nog steeds deel te maken van dezelfde array in plaats, want nu maak het deel van de volgende.
+4. opties om namen te voeren. er zijn momenten waar je "[naam]" ziet staan in de tekst, oorspronkelijk was het de plan om aan de start te maken dat je zelf een naam kon invoeren maar dat lukte mij niet
+5. beter verdeling van tijd, ik kon vast deze opdracht op tijd inleveren als ik me aan een planning had gehouden
