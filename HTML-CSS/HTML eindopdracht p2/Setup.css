@@ -21,17 +21,16 @@ body{
     background: navy;
 }
 .Main img{
-    /*display: flex;
-    flex-flow: column nowrap;
-    justify-content: end;*/
     gap: 20px;
-    width: 250px;
+    max-width: 500px;
+    /*max-height: 30vw;*/
 }
+
 .Main p{
     background: green;
     font-size: 20;
 }
-/*linkspace is voor de navigatie stukken*/
+/*linkspace is voor de navigatie stukken, gebruikt flexbox*/
 .linkspace ol{
     display: flex;
     justify-content: center;
@@ -68,10 +67,13 @@ body{
 /*layout is de gridbox voor de paginas dat deel teskt en afbeeldingen zijn */
 .layout{
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1.5fr 1fr;
     justify-content: end;
-    
 }
-/* flexbox is ook vereist */
-
 /* een footer ook */
+.footnote{
+    background-color: crimson;
+}
+.footnote footer{
+color: black;
+}
