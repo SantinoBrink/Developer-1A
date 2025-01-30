@@ -1,3 +1,4 @@
+/*de algemene styling*/
 *{
     margin: 10px;
     padding: 15px;
@@ -8,39 +9,69 @@
 body{
     background-image: url("Images/mossy stone BG.jpg");
 }
-.Mainpage{
+/*de styling voor main van de page*/
+.Main{
     background: rgb(51, 48, 48);
     color: white;
+    /*display: flex;
+    flex-direction: column;*/ /*dacht om dit in tot een flexbox te maken. reden: heb geen behalve dat dit correct voel voor een of andere reden*/
     position: relative;
 }
-.Mainpage h1{
+.Main h1{
     background: navy;
-    width: 70%;
 }
-.Mainpage img{
-    position: absolute;
-    width: 200px;
-    left: 75%;
-    top: 0px;
+.Main img{
+    /*display: flex;
+    flex-flow: column nowrap;
+    justify-content: end;*/
+    gap: 20px;
+    width: 250px;
 }
-.Mainpage p{
-    width: 70%;
+.Main p{
     background: green;
+    font-size: 20;
 }
-.linkspace{
+/*linkspace is voor de navigatie stukken*/
+.linkspace ol{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    width: 100%;
+    flex-wrap: wrap;
+    align-self: center;
+    margin: 0px;
+    padding: 0px;
     background: rebeccapurple;
+    overflow: hidden;
+    /*kosmatische border*/
     border: solid;
     border-width: 10px;
     border-color: black;
-    width: 30%;
-}
-.linkspace a{color: cyan
 }
 .linkspace li{
-    padding: 1px;
+    float: left;
+    padding: 0px;
     margin: 0px;
 }
-.linkspace ol{
-    color: violet;
-    list-style-type: none;
+.linkspace li a{
+    color: cyan;
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none; /*voor te verkomen dat lijntje als het verbonden is*/
+    text-align: center;
+    font-size: 25;
 }
+.linkspace li a:hover {
+  background-color: violet;
+  color: black;
+}
+/*layout is de gridbox voor de paginas dat deel teskt en afbeeldingen zijn */
+.layout{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: end;
+    
+}
+/* flexbox is ook vereist */
+
+/* een footer ook */
