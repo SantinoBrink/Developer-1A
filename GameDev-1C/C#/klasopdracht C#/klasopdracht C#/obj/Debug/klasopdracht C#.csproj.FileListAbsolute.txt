@@ -1,0 +1,7 @@
+C:\Users\sdbri\Documents\GitHub\GameDev-1C\C#\klasopdracht C#\klasopdracht C#\bin\Debug\klasopdracht C#.exe.config
+C:\Users\sdbri\Documents\GitHub\GameDev-1C\C#\klasopdracht C#\klasopdracht C#\bin\Debug\klasopdracht C#.exe
+C:\Users\sdbri\Documents\GitHub\GameDev-1C\C#\klasopdracht C#\klasopdracht C#\bin\Debug\klasopdracht C#.pdb
+C:\Users\sdbri\Documents\GitHub\GameDev-1C\C#\klasopdracht C#\klasopdracht C#\obj\Debug\klasopdracht C#.csproj.AssemblyReference.cache
+C:\Users\sdbri\Documents\GitHub\GameDev-1C\C#\klasopdracht C#\klasopdracht C#\obj\Debug\klasopdracht C#.csproj.CoreCompileInputs.cache
+C:\Users\sdbri\Documents\GitHub\GameDev-1C\C#\klasopdracht C#\klasopdracht C#\obj\Debug\klasopdracht C#.exe
+C:\Users\sdbri\Documents\GitHub\GameDev-1C\C#\klasopdracht C#\klasopdracht C#\obj\Debug\klasopdracht C#.pdb
