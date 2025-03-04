@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,16 +13,17 @@ namespace herhalling_User_list
         {
             List<User> Deelnemers = new List<User>();
 
-            User Orchid = new User("Orchid");
-            User Diego = new User("DiEgo");
-            User Regi = new User("Regi");
-            User Meg = new User("Megumin");
-            User Opal = new User("Opal");
-            User Scar = new User("Scarlet");
-            User Em = new User("Emma");
-            User Trey = new User("Trey");
-            User Lil = new User("Lilly");
-            User Pres = new User("Preston");
+            User Orchid = new User("Orchid",20);
+            User Diego = new User("DiEgo", 22);
+            User Regi = new User("Regi", 34);
+            User Meg = new User("Megumin", 14);
+            User Opal = new User("Opal", 19);
+            User Scar = new User("Scarlet", 24);
+            User Em = new User("Emma", 21);
+            User Trey = new User("Trey", 27);
+            User Lil = new User("Lilly", 16);
+            User Pres = new User("Preston", 16);
+            
             Deelnemers.Add(Orchid);
             Deelnemers.Add(Diego);
             Deelnemers.Add(Regi);
@@ -32,6 +34,17 @@ namespace herhalling_User_list
             Deelnemers.Add(Trey);
             Deelnemers.Add(Lil);
             Deelnemers.Add(Pres);
+
+            /*Console.WriteLine("schrijf iets");
+            string Vibe = Console.ReadLine();
+            Console.WriteLine("je vibe is" + Vibe);*/
+            
+            Console.WriteLine("naam");
+            string userInput = Console.ReadLine();
+            Console.WriteLine("leeftijd");
+            int.TryParse(Console.ReadLine(), out int age);
+            User user = new User(userInput,age);
+            Deelnemers.Add(user);
             
             for (int t = 0; t < Deelnemers.Count; t++)
             {
@@ -40,17 +53,10 @@ namespace herhalling_User_list
             
             foreach(User Deelnemer in Deelnemers)
             {
-                Console.WriteLine($"{Deelnemer.Naam} klaar staat!");
+                Console.WriteLine($"{Deelnemer.Naam} is {Deelnemer.Leeftijd}");
             }
         }
 
-        public class User
-        {
-            public string Naam;
-            public User(string naam)
-            {
-                Naam = naam;
-            }
-        }
+
     }
 }
