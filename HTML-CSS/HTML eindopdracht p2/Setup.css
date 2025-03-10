@@ -79,8 +79,8 @@ body{
 color: black;
 }
 
-@media screen and (min-width:750px) {
-    #layout{grid-template-columns: 1fr;
-    }
+@media screen and (min-width:1200px) {
+    #layout{grid-template-columns: 1fr, 1fr
+    };
     #layout img{max-width: 150px};
 };

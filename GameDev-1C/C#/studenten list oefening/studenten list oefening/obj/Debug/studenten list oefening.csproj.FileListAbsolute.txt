@@ -1,0 +1,2 @@
+C:\Users\sdbri\Documents\GitHub\Developer-1A\GameDev-1C\C#\studenten list oefening\studenten list oefening\obj\Debug\studenten list oefening.csproj.AssemblyReference.cache
+C:\Users\sdbri\Documents\GitHub\Developer-1A\GameDev-1C\C#\studenten list oefening\studenten list oefening\obj\Debug\studenten list oefening.csproj.CoreCompileInputs.cache
