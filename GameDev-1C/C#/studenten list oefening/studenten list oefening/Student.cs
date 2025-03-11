@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace studenten_list_oefening
 {
-    class Student
+    public class Student
     {
         public string Studentnaam;
         public Student(string studentnaam)

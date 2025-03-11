@@ -10,7 +10,7 @@ namespace studenten_list_oefening
     class School
     {
         public string Schoolnaam;
-        List<Classroom> klassen = new List<Classroom>();
+        public List<Classroom> classrooms = new List<Classroom>();
         public School(string schoolnaam)
         {
             Schoolnaam = schoolnaam;
