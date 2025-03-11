@@ -70,7 +70,6 @@ body{
     grid-template-columns: 1.5fr 1fr;
     justify-content: end;
 }
-.layout img{max-width: 500px;}
 /* een footer ook */
 .footnote{
     background-color: crimson;
@@ -79,8 +78,8 @@ body{
 color: black;
 }
 
-@media screen and (min-width:1200px) {
-    #layout{grid-template-columns: 1fr, 1fr
+@media screen and (max-width:800px) {
+    #layout{grid-auto-flow: column
     };
-    #layout img{max-width: 150px};
+    #main img{max-width: 150px};
 };
