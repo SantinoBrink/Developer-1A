@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{E43540EF-7C74-4C62-8106-6A022160E83F}|studenten list oefening\\studenten list oefening.csproj|solutionrelative:studenten list oefening\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E43540EF-7C74-4C62-8106-6A022160E83F}|studenten list oefening\\studenten list oefening.csproj|c:\\users\\sdbri\\documents\\github\\developer-1a\\gamedev-1c\\c#\\studenten list oefening\\studenten list oefening\\school.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E43540EF-7C74-4C62-8106-6A022160E83F}|studenten list oefening\\studenten list oefening.csproj|C:\\Users\\sdbri\\Documents\\GitHub\\Developer-1A\\GameDev-1C\\C#\\studenten list oefening\\studenten list oefening\\classroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E43540EF-7C74-4C62-8106-6A022160E83F}|studenten list oefening\\studenten list oefening.csproj|solutionrelative:studenten list oefening\\classroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E43540EF-7C74-4C62-8106-6A022160E83F}|studenten list oefening\\studenten list oefening.csproj|C:\\Users\\sdbri\\Documents\\GitHub\\Developer-1A\\GameDev-1C\\C#\\studenten list oefening\\studenten list oefening\\school.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E43540EF-7C74-4C62-8106-6A022160E83F}|studenten list oefening\\studenten list oefening.csproj|solutionrelative:studenten list oefening\\school.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E43540EF-7C74-4C62-8106-6A022160E83F}|studenten list oefening\\studenten list oefening.csproj|c:\\users\\sdbri\\documents\\github\\developer-1a\\gamedev-1c\\c#\\studenten list oefening\\studenten list oefening\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E43540EF-7C74-4C62-8106-6A022160E83F}|studenten list oefening\\studenten list oefening.csproj|C:\\Users\\sdbri\\Documents\\GitHub\\Developer-1A\\GameDev-1C\\C#\\studenten list oefening\\studenten list oefening\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E43540EF-7C74-4C62-8106-6A022160E83F}|studenten list oefening\\studenten list oefening.csproj|solutionrelative:studenten list oefening\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E43540EF-7C74-4C62-8106-6A022160E83F}|studenten list oefening\\studenten list oefening.csproj|c:\\users\\sdbri\\documents\\github\\developer-1a\\gamedev-1c\\c#\\studenten list oefening\\studenten list oefening\\classroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E43540EF-7C74-4C62-8106-6A022160E83F}|studenten list oefening\\studenten list oefening.csproj|solutionrelative:studenten list oefening\\classroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "studenten list oefening\\Program.cs",
               "ToolTip": "C:\\Users\\sdbri\\Documents\\GitHub\\Developer-1A\\GameDev-1C\\C#\\studenten list oefening\\studenten list oefening\\Program.cs",
               "RelativeToolTip": "studenten list oefening\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAkwDIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-10T09:24:02.299Z",
               "IsPinned": true,
@@ -44,7 +44,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "School.cs",
               "DocumentMoniker": "C:\\Users\\sdbri\\Documents\\GitHub\\Developer-1A\\GameDev-1C\\C#\\studenten list oefening\\studenten list oefening\\School.cs",
               "RelativeDocumentMoniker": "studenten list oefening\\School.cs",
@@ -52,12 +52,11 @@
               "RelativeToolTip": "studenten list oefening\\School.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T09:41:15.991Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T09:41:15.991Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Classroom.cs",
               "DocumentMoniker": "C:\\Users\\sdbri\\Documents\\GitHub\\Developer-1A\\GameDev-1C\\C#\\studenten list oefening\\studenten list oefening\\Classroom.cs",
               "RelativeDocumentMoniker": "studenten list oefening\\Classroom.cs",
@@ -65,12 +64,11 @@
               "RelativeToolTip": "studenten list oefening\\Classroom.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T10:10:05.394Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T10:10:05.394Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\sdbri\\Documents\\GitHub\\Developer-1A\\GameDev-1C\\C#\\studenten list oefening\\studenten list oefening\\Student.cs",
               "RelativeDocumentMoniker": "studenten list oefening\\Student.cs",
@@ -78,8 +76,7 @@
               "RelativeToolTip": "studenten list oefening\\Student.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T10:10:31.096Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T10:10:31.096Z"
             }
           ]
         }

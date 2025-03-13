@@ -1,0 +1,7 @@
+C:\Users\sdbri\Documents\GitHub\Developer-1A\GameDev-1C\C#\DIY Classes in classes\DIY Classes in classes\bin\Debug\DIY Classes in classes.exe.config
+C:\Users\sdbri\Documents\GitHub\Developer-1A\GameDev-1C\C#\DIY Classes in classes\DIY Classes in classes\bin\Debug\DIY Classes in classes.exe
+C:\Users\sdbri\Documents\GitHub\Developer-1A\GameDev-1C\C#\DIY Classes in classes\DIY Classes in classes\bin\Debug\DIY Classes in classes.pdb
+C:\Users\sdbri\Documents\GitHub\Developer-1A\GameDev-1C\C#\DIY Classes in classes\DIY Classes in classes\obj\Debug\DIY Classes in classes.csproj.AssemblyReference.cache
+C:\Users\sdbri\Documents\GitHub\Developer-1A\GameDev-1C\C#\DIY Classes in classes\DIY Classes in classes\obj\Debug\DIY Classes in classes.csproj.CoreCompileInputs.cache
+C:\Users\sdbri\Documents\GitHub\Developer-1A\GameDev-1C\C#\DIY Classes in classes\DIY Classes in classes\obj\Debug\DIY Classes in classes.exe
+C:\Users\sdbri\Documents\GitHub\Developer-1A\GameDev-1C\C#\DIY Classes in classes\DIY Classes in classes\obj\Debug\DIY Classes in classes.pdb
