@@ -37,6 +37,7 @@ namespace Admin_Opdract_Santino
             UserBase.Add(Santino);
             UserBase.Add(Wyrm);
             UserBase.Add(CrowFather);
+            
 
 
             while (running)
@@ -54,7 +55,9 @@ namespace Admin_Opdract_Santino
             Startpunt:
                 Console.WriteLine("\n1 - Gebruikers maken");
                 Console.WriteLine("2 - Gebruikers weergeven");
-                Console.WriteLine("3 - verlaat console");
+                Console.WriteLine("3 - bewerk een User");
+                Console.WriteLine("4 - verwijder een User");
+                Console.WriteLine("5 - verlaat Programma");
 
                 Console.WriteLine("\nWat wilt u doen?");
                 string input = Console.ReadLine();
@@ -86,6 +89,17 @@ namespace Admin_Opdract_Santino
                 if(nummer == 3)
                 {
                     Console.Clear();
+                    Console.WriteLine("naam?");
+                    String input4 = Console.ReadLine();
+                    EditUser(input4);
+                }
+                if(nummer == 4)
+                {
+
+                }
+                if(nummer == 5)
+                {
+                    Console.Clear();
                     Console.WriteLine("byee!");
                     Environment.Exit(0);
                 }
@@ -107,6 +121,40 @@ namespace Admin_Opdract_Santino
             }
             UserBase.Add(New);
         }
-
+        public static void EditUser(string Uname)
+        {
+            for(int i = 0; i < UserBase.Count; i++)
+            {
+                if(Uname == UserBase[i].Naam)
+                {
+                StartEdit:
+                    Console.WriteLine("User gevonden. " + UserBase[i].Naam + " " + UserBase[i].Adress + " " + UserBase[i].Telefoonnummer + "\n je kan nu je Adress veranderen");
+                    string Edit1 = Console.ReadLine();
+                    Console.WriteLine("Graag ook een nummer");
+                    string Edit2 = Console.ReadLine();
+                    Console.WriteLine("klopt " + Uname + " " + Edit1 + " " + Edit2 + "? \n Y or N");
+                    string Confirm = Console.ReadLine();
+                    if(Confirm == "Y")
+                    {
+                        UserBase[i].Adress = Edit1;
+                        UserBase[i].Telefoonnummer = Edit2;
+                    }
+                    if(Confirm == "N")
+                    {
+                        Console.WriteLine("will je terug naar start gaan?");
+                        string Confirm1 = Console.ReadLine();
+                        if(Confirm1 == "N")
+                        {
+                            goto StartEdit;
+                        }
+                        if(Confirm1 == "Y")
+                        {
+                            return;
+                        }
+                    }
+                    
+                }
+            }
+        }
     }
 }
