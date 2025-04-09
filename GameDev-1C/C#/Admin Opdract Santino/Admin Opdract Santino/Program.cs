@@ -26,6 +26,7 @@ namespace Admin_Opdract_Santino
             //^gebruikt niet meer maar miechien kan ik iets hier mee doen
             User Santino = new User("Santino", "Kikkenstein 3141, Amsterdam", "0636383705");
             User Wyrm = new User("Wyrmestra", "MonsterHunter Wilds", "0676561198");
+            User CrowFather = new User("Philza", "England", null);
 
 
             ListOfComands.Add(showCommand);
@@ -35,6 +36,7 @@ namespace Admin_Opdract_Santino
             //^gebruikt niet meer
             UserBase.Add(Santino);
             UserBase.Add(Wyrm);
+            UserBase.Add(CrowFather);
 
 
             while (running)
