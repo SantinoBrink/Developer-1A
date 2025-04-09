@@ -1,0 +1,7 @@
+C:\Users\sdbri\Documents\GitHub\Developer-1A\GameDev-1C\C#\Admin Opdract Santino\Admin Opdract Santino\bin\Debug\Admin Opdract Santino.exe.config
+C:\Users\sdbri\Documents\GitHub\Developer-1A\GameDev-1C\C#\Admin Opdract Santino\Admin Opdract Santino\bin\Debug\Admin Opdract Santino.exe
+C:\Users\sdbri\Documents\GitHub\Developer-1A\GameDev-1C\C#\Admin Opdract Santino\Admin Opdract Santino\bin\Debug\Admin Opdract Santino.pdb
+C:\Users\sdbri\Documents\GitHub\Developer-1A\GameDev-1C\C#\Admin Opdract Santino\Admin Opdract Santino\obj\Debug\Admin Opdract Santino.csproj.AssemblyReference.cache
+C:\Users\sdbri\Documents\GitHub\Developer-1A\GameDev-1C\C#\Admin Opdract Santino\Admin Opdract Santino\obj\Debug\Admin Opdract Santino.csproj.CoreCompileInputs.cache
+C:\Users\sdbri\Documents\GitHub\Developer-1A\GameDev-1C\C#\Admin Opdract Santino\Admin Opdract Santino\obj\Debug\Admin Opdract Santino.exe
+C:\Users\sdbri\Documents\GitHub\Developer-1A\GameDev-1C\C#\Admin Opdract Santino\Admin Opdract Santino\obj\Debug\Admin Opdract Santino.pdb
