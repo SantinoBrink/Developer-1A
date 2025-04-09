@@ -26,7 +26,7 @@ namespace Admin_Opdract_Santino
             //^gebruikt niet meer maar miechien kan ik iets hier mee doen
             User Santino = new User("Santino", "Kikkenstein 3141, Amsterdam", "0636383705");
             User Wyrm = new User("Wyrmestra", "MonsterHunter Wilds", "0676561198");
-            User CrowFather = new User("Philza", "England", null);
+            User CrowFather = new User("Philza", "England", "");
 
 
             ListOfComands.Add(showCommand);
@@ -81,7 +81,7 @@ namespace Admin_Opdract_Santino
                     Console.Clear();
                     for(int t = 0; t < UserBase.Count;t++)
                     {
-                        Console.WriteLine(UserBase[t].Naam +" "+ UserBase[t].Adress +" "+ UserBase[t].Telefoonnummer);
+                        Console.WriteLine(UserBase[t].Naam +" - "+ UserBase[t].Adress +" - "+ UserBase[t].Telefoonnummer);
                     }
                     //gebruikers weergeven
                     goto Startpunt;
@@ -153,6 +153,17 @@ namespace Admin_Opdract_Santino
                         }
                     }
                     
+                }
+            }
+        }
+        public static void RemoveUser(string Dname)
+        {
+            for (int i = 0; i < UserBase.Count; i++)
+            {
+                if (UserBase[i].Naam == Dname)
+                {
+                    Console.WriteLine("Gebruiker Gevonden " + UserBase[i].Naam + " " + UserBase[i].Adress + " " + UserBase[i].Telefoonnummer+"\nBenje zeker?");
+                    string input = Console.ReadLine();
                 }
             }
         }
