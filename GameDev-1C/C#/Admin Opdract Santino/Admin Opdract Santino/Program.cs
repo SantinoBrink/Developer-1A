@@ -52,6 +52,7 @@ namespace Admin_Opdract_Santino
             Startpunt:
                 Console.WriteLine("\n1 - Gebruikers maken");
                 Console.WriteLine("2 - Gebruikers weergeven");
+                Console.WriteLine("3 - verlaat console");
 
                 Console.WriteLine("\nWat wilt u doen?");
                 string input = Console.ReadLine();
@@ -80,7 +81,12 @@ namespace Admin_Opdract_Santino
                     //gebruikers weergeven
                     goto Startpunt;
                 }
-
+                if(nummer == 3)
+                {
+                    Console.Clear();
+                    Console.WriteLine("byee!");
+                    Environment.Exit(0);
+                }
 
             }
         }
