@@ -10,18 +10,15 @@ namespace Admin_Opdract_Santino
     {
         public string Naam;
         public string Adress;
-        public int Telefoonnummer;
+        public uint Telefoonnummer;
         
-        public User(string naam,string adress, int telefoonnummer)
+        public User(string naam,string adress, uint telefoonnummer)
         {
             Naam = naam;
             Adress = adress;
             Telefoonnummer = telefoonnummer;
         }
 
-        /*public void UserAdd(string naam,string adress,string telefoon)
-        {
-           
-        }*/
+        
     }
 }

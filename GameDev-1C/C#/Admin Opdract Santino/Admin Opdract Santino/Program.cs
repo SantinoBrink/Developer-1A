@@ -11,28 +11,16 @@ namespace Admin_Opdract_Santino
     class Program
     {
 
-        static List<Command> ListOfComands = new List<Command>();
         static List<User> UserBase = new List<User>();
 
         static void Main(string[] args)
         {
             bool running = true;
 
-
-            Command showCommand = new Command("1", "Show alle klanten infomatie", null);
-            Command AddComand = new Command("2", "Add ", null);
-            Command DeleteCostumer = new Command("3", "Delete", null);
-            Command QuitApp = new Command("4", "Quit App", null);
-            //^gebruikt niet meer maar miechien kan ik iets hier mee doen
             User Santino = new User("Santino", "Kikkenstein 3141, Amsterdam", 0636383705);
             User Wyrm = new User("Wyrmestra", "MonsterHunter Wilds", 0676561198);
-            User CrowFather = new User("Philza", "England", 420);
+            User CrowFather = new User("Philza", "England", 4201988301);
 
-
-            ListOfComands.Add(showCommand);
-            ListOfComands.Add(AddComand);
-            ListOfComands.Add(DeleteCostumer);
-            ListOfComands.Add(QuitApp);
             //^gebruikt niet meer
             UserBase.Add(Santino);
             UserBase.Add(Wyrm);
@@ -62,10 +50,20 @@ namespace Admin_Opdract_Santino
                     string input1 = Console.ReadLine();
                     Console.WriteLine("voeg een Adress toe");
                     string input2 = Console.ReadLine();
+                nummer:
                     Console.WriteLine("voeg een nummer toe");
                     string input3 = Console.ReadLine();
-                    int.TryParse(input3, out int Phone);
-                    UserAdd(input1, input2, Phone);
+                    uint.TryParse(input3, out uint Phone);
+                    if (input3.ToString().Length == 10)
+                    {
+                        Console.WriteLine("telefoonnummer is goed");
+                        UserAdd(input1, input2, Phone);
+                    }
+                    else
+                    {
+                        Console.WriteLine("telefoonnummer is fout");
+                        goto nummer;
+                    }
                     //gebruiker maken
                     goto Startpunt;
                     
@@ -104,7 +102,7 @@ namespace Admin_Opdract_Santino
         }
 
 
-        public static void UserAdd(string naam, string Adress, int nummer)
+        public static void UserAdd(string naam, string Adress, uint nummer)
         {
             User New = new User(naam, Adress, nummer);
             for (int i = 0; i < UserBase.Count; i++)
@@ -114,7 +112,9 @@ namespace Admin_Opdract_Santino
                     Console.WriteLine("deze gebruiker bestaat al");
                     return;
                 }
+                
             }
+            
             UserBase.Add(New);
         }
         public static void EditUser(string Uname)
@@ -128,7 +128,17 @@ namespace Admin_Opdract_Santino
                     string Edit1 = Console.ReadLine();
                     Console.WriteLine("Graag ook een nummer");
                     string Edit2 = Console.ReadLine();
-                    int.TryParse(Edit2, out int Tele);
+                    
+                    if (Edit2.ToString().Length == 10)
+                    {
+                        Console.WriteLine("telefoonnummer is goed");
+                    }
+                    else
+                    {
+                        Console.WriteLine("telefoonnummer is fout");
+                        goto StartEdit;
+                    }
+                    uint.TryParse(Edit2, out uint Tele);
                     Console.WriteLine("klopt " + Uname + " " + Edit1 + " " + Edit2 + "? \n Y or N");
                     string Confirm = Console.ReadLine();
                     if(Confirm == "Y")
