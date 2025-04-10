@@ -119,26 +119,45 @@ namespace Admin_Opdract_Santino
         }
         public static void EditUser(string Uname)
         {
-            for(int i = 0; i < UserBase.Count; i++)
+            string Edit1 = "";
+            string Edit2 = "";
+            uint Tele = 0;
+            for (int i = 0; i < UserBase.Count; i++)
             {
                 if(Uname == UserBase[i].Naam)
                 {
+                
+                    Console.WriteLine("User gevonden. " + UserBase[i].Naam + " " + UserBase[i].Adress + " " + UserBase[i].Telefoonnummer + "\n will je je Adress veranderen?\n Y of N");
+                    string confirm2 = Console.ReadLine();
+                    if (confirm2 == "Y")
+                    {
+                        Console.WriteLine("wat is je nieuwe Adress?");
+                        Edit1 = Console.ReadLine();
+                    }
+                    if(confirm2 == "N")
+                    {
+                        Edit1 = UserBase[i].Adress;
+                    }
                 StartEdit:
-                    Console.WriteLine("User gevonden. " + UserBase[i].Naam + " " + UserBase[i].Adress + " " + UserBase[i].Telefoonnummer + "\n je kan nu je Adress veranderen");
-                    string Edit1 = Console.ReadLine();
-                    Console.WriteLine("Graag ook een nummer");
-                    string Edit2 = Console.ReadLine();
+                    Console.WriteLine("will je je telefoonnummer veranderen?\n Y of N");
+                    string confirm3 = Console.ReadLine();
+                    if (confirm3 == "Y")
+                    {
+                        Console.WriteLine("Graag ook een nummer");
+                        Edit2 = Console.ReadLine();
+
+                        if (Edit2.ToString().Length == 10)
+                        {
+                            Console.WriteLine("telefoonnummer is goed");
+                        }
+                        else
+                        {
+                            Console.WriteLine("telefoonnummer is fout");
+                            goto StartEdit;
+                        }
+                        uint.TryParse(Edit2, out Tele);
+                    } if(confirm3 == "N") { Edit2 = UserBase[i].Telefoonnummer.ToString();}
                     
-                    if (Edit2.ToString().Length == 10)
-                    {
-                        Console.WriteLine("telefoonnummer is goed");
-                    }
-                    else
-                    {
-                        Console.WriteLine("telefoonnummer is fout");
-                        goto StartEdit;
-                    }
-                    uint.TryParse(Edit2, out uint Tele);
                     Console.WriteLine("klopt " + Uname + " " + Edit1 + " " + Edit2 + "? \n Y or N");
                     string Confirm = Console.ReadLine();
                     if(Confirm == "Y")
