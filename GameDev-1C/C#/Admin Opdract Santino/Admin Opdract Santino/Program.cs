@@ -125,7 +125,7 @@ namespace Admin_Opdract_Santino
                 if(Uname == UserBase[i].Naam)
                 {
                 
-                    Console.WriteLine("User gevonden. " + UserBase[i].Naam + " " + UserBase[i].Adress + " " + UserBase[i].Telefoonnummer + "\n will je je Adress veranderen?\n Y of N");
+                    Console.WriteLine("User gevonden. " + UserBase[i].Naam + " - " + UserBase[i].Adress + " - " + UserBase[i].Telefoonnummer + "\n will je je Adress veranderen?\n Y of N");
                     string confirm2 = Console.ReadLine();
                     if (confirm2 == "Y")
                     {
@@ -155,7 +155,7 @@ namespace Admin_Opdract_Santino
                         }
                     } if(confirm3 == "N") { Edit2 = UserBase[i].Telefoonnummer.ToString();}
                     
-                    Console.WriteLine("klopt " + Uname + " " + Edit1 + " " + Edit2 + "? \n Y or N");
+                    Console.WriteLine("klopt " + Uname + " - " + Edit1 + " - " + Edit2 + "? \n Y or N");
                     string Confirm = Console.ReadLine();
                     if(Confirm == "Y")
                     {
