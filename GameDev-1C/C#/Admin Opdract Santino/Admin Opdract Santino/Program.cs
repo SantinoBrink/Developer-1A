@@ -42,13 +42,6 @@ namespace Admin_Opdract_Santino
 
             while (running)
             {
-               /* for (int i = 0; i < ListOfComands.Count; i++)
-                {
-                    Console.WriteLine(ListOfComands[i].ComandInfo);
-                }
-                running = false;*/
-
-            //hierboven negeren, en het volgende doen:
             
                 //geef de gebruiker een aantal opties om te doen:
                 Console.WriteLine("Welkom in mijn geweldige administratie programma");
@@ -71,7 +64,7 @@ namespace Admin_Opdract_Santino
                     string input2 = Console.ReadLine();
                     Console.WriteLine("voeg een nummer toe");
                     string input3 = Console.ReadLine();
-                    int.TryParse(input, out int Phone);
+                    int.TryParse(input3, out int Phone);
                     UserAdd(input1, input2, Phone);
                     //gebruiker maken
                     goto Startpunt;
