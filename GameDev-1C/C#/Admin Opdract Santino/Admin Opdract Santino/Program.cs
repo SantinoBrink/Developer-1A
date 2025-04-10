@@ -24,9 +24,9 @@ namespace Admin_Opdract_Santino
             Command DeleteCostumer = new Command("3", "Delete", null);
             Command QuitApp = new Command("4", "Quit App", null);
             //^gebruikt niet meer maar miechien kan ik iets hier mee doen
-            User Santino = new User("Santino", "Kikkenstein 3141, Amsterdam", "0636383705");
-            User Wyrm = new User("Wyrmestra", "MonsterHunter Wilds", "0676561198");
-            User CrowFather = new User("Philza", "England", "");
+            User Santino = new User("Santino", "Kikkenstein 3141, Amsterdam", 0636383705);
+            User Wyrm = new User("Wyrmestra", "MonsterHunter Wilds", 0676561198);
+            User CrowFather = new User("Philza", "England", 420);
 
 
             ListOfComands.Add(showCommand);
@@ -71,7 +71,8 @@ namespace Admin_Opdract_Santino
                     string input2 = Console.ReadLine();
                     Console.WriteLine("voeg een nummer toe");
                     string input3 = Console.ReadLine();
-                    UserAdd(input1, input2, input3);
+                    int.TryParse(input, out int Phone);
+                    UserAdd(input1, input2, Phone);
                     //gebruiker maken
                     goto Startpunt;
                     
@@ -110,7 +111,7 @@ namespace Admin_Opdract_Santino
         }
 
 
-        public static void UserAdd(string naam, string Adress, string nummer)
+        public static void UserAdd(string naam, string Adress, int nummer)
         {
             User New = new User(naam, Adress, nummer);
             for (int i = 0; i < UserBase.Count; i++)
@@ -134,12 +135,13 @@ namespace Admin_Opdract_Santino
                     string Edit1 = Console.ReadLine();
                     Console.WriteLine("Graag ook een nummer");
                     string Edit2 = Console.ReadLine();
+                    int.TryParse(Edit2, out int Tele);
                     Console.WriteLine("klopt " + Uname + " " + Edit1 + " " + Edit2 + "? \n Y or N");
                     string Confirm = Console.ReadLine();
                     if(Confirm == "Y")
                     {
                         UserBase[i].Adress = Edit1;
-                        UserBase[i].Telefoonnummer = Edit2;
+                        UserBase[i].Telefoonnummer = Tele;
                     }
                     if(Confirm == "N")
                     {
