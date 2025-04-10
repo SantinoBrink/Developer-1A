@@ -17,9 +17,9 @@ namespace Admin_Opdract_Santino
         {
             bool running = true;
 
-            User Santino = new User("Santino", "Kikkenstein 3141, Amsterdam", 0636383705);
-            User Wyrm = new User("Wyrmestra", "MonsterHunter Wilds", 0676561198);
-            User CrowFather = new User("Philza", "England", 4201988301);
+            User Santino = new User("Santino", "Kikkenstein 3141, Amsterdam", "0636383705");
+            User Wyrm = new User("Wyrmestra", "MonsterHunter Wilds", "0676561198");
+            User CrowFather = new User("Philza", "England", "4201988301");
 
             //^gebruikt niet meer
             UserBase.Add(Santino);
@@ -53,11 +53,10 @@ namespace Admin_Opdract_Santino
                 nummer:
                     Console.WriteLine("voeg een nummer toe");
                     string input3 = Console.ReadLine();
-                    uint.TryParse(input3, out uint Phone);
                     if (input3.ToString().Length == 10)
                     {
                         Console.WriteLine("telefoonnummer is goed");
-                        UserAdd(input1, input2, Phone);
+                        UserAdd(input1, input2, input3);
                     }
                     else
                     {
@@ -102,7 +101,7 @@ namespace Admin_Opdract_Santino
         }
 
 
-        public static void UserAdd(string naam, string Adress, uint nummer)
+        public static void UserAdd(string naam, string Adress, string nummer)
         {
             User New = new User(naam, Adress, nummer);
             for (int i = 0; i < UserBase.Count; i++)
@@ -121,7 +120,6 @@ namespace Admin_Opdract_Santino
         {
             string Edit1 = "";
             string Edit2 = "";
-            uint Tele = 0;
             for (int i = 0; i < UserBase.Count; i++)
             {
                 if(Uname == UserBase[i].Naam)
@@ -155,7 +153,6 @@ namespace Admin_Opdract_Santino
                             Console.WriteLine("telefoonnummer is fout");
                             goto StartEdit;
                         }
-                        uint.TryParse(Edit2, out Tele);
                     } if(confirm3 == "N") { Edit2 = UserBase[i].Telefoonnummer.ToString();}
                     
                     Console.WriteLine("klopt " + Uname + " " + Edit1 + " " + Edit2 + "? \n Y or N");
@@ -163,7 +160,7 @@ namespace Admin_Opdract_Santino
                     if(Confirm == "Y")
                     {
                         UserBase[i].Adress = Edit1;
-                        UserBase[i].Telefoonnummer = Tele;
+                        UserBase[i].Telefoonnummer = Edit2;
                     }
                     if(Confirm == "N")
                     {

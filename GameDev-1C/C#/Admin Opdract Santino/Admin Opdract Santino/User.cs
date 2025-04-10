@@ -10,9 +10,9 @@ namespace Admin_Opdract_Santino
     {
         public string Naam;
         public string Adress;
-        public uint Telefoonnummer;
+        public string Telefoonnummer;
         
-        public User(string naam,string adress, uint telefoonnummer)
+        public User(string naam,string adress, string telefoonnummer)
         {
             Naam = naam;
             Adress = adress;
