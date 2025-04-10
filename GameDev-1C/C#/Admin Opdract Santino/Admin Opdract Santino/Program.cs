@@ -95,7 +95,9 @@ namespace Admin_Opdract_Santino
                 }
                 if(nummer == 4)
                 {
-
+                    Console.WriteLine("welke gebruiker?");
+                    string input5 = Console.ReadLine();
+                    RemoveUser(input5);
                 }
                 if(nummer == 5)
                 {
@@ -164,6 +166,17 @@ namespace Admin_Opdract_Santino
                 {
                     Console.WriteLine("Gebruiker Gevonden " + UserBase[i].Naam + " " + UserBase[i].Adress + " " + UserBase[i].Telefoonnummer+"\nBenje zeker?");
                     string input = Console.ReadLine();
+                    if (input == "Y")
+                    {
+                        UserBase.RemoveAt(i);
+                        Console.WriteLine("User Verwijderd");
+                        return;
+                    }
+                    if (input == "N")
+                    {
+                        Console.WriteLine("User niet verwijderd");
+                        return;
+                    }
                 }
             }
         }

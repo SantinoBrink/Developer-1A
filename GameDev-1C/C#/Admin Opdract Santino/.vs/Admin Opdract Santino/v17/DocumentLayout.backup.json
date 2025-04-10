@@ -39,8 +39,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T08:43:30.744Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -53,8 +52,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T08:29:48.722Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -66,8 +64,7 @@
               "RelativeToolTip": "Admin Opdract Santino\\UserData.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T13:16:32.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T13:16:32.505Z"
             },
             {
               "$type": "Document",
@@ -77,7 +74,7 @@
               "RelativeDocumentMoniker": "Admin Opdract Santino\\Program.cs",
               "ToolTip": "C:\\Users\\sdbri\\Documents\\GitHub\\Developer-1A\\GameDev-1C\\C#\\Admin Opdract Santino\\Admin Opdract Santino\\Program.cs",
               "RelativeToolTip": "Admin Opdract Santino\\Program.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAADwv6AAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAwK0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T08:25:43.194Z",
               "EditorCaption": ""
