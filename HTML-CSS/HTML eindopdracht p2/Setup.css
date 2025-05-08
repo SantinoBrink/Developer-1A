@@ -73,13 +73,14 @@ body{
 /* een footer ook */
 .footnote{
     background-color: crimson;
-    padding: 0px;
+    
     border: solid;
     border-width: 10px;
     border-color: black;
 }
 .footnote footer{
 color: black;
+padding: 0px;
 }
 
 @media (max-width: 800px) {
