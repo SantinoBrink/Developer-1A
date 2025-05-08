@@ -73,13 +73,21 @@ body{
 /* een footer ook */
 .footnote{
     background-color: crimson;
+    padding: 0px;
+    border: solid;
+    border-width: 10px;
+    border-color: black;
 }
 .footnote footer{
 color: black;
 }
 
-@media screen and (max-width:800px) {
-    #layout{grid-auto-flow: column
-    };
-    #main img{max-width: 150px};
-};
+@media (max-width: 800px) {
+   .main img {
+      width: 100%;
+    }
+    .layout{
+        grid-template-columns: 100%;
+    }
+  }
+  
